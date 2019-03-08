@@ -1,0 +1,21 @@
+insert into blogful_articles (title, date_published, content)
+    values 
+    ('The Begining', now() - '6 months'::INTERVAL, 'This is the first article'),
+    ('The Second', now() - '5 months'::INTERVAL, 'This is the secons article'),
+    ('The Third', now() - '4 months'::INTERVAL, 'This is the third article'),
+    ('The Article to Rule All Articles', now() - '3 months'::INTERVAL, 'This is the article that will rule all other articles with the ultimate power of all power and awesomeness'),
+    ('Random Title', now() - '2 months'::INTERVAL, 'This is a random article that ends with random letters dlpasjnall'),
+    ('Too Many Titles', now() - '1 months'::INTERVAL, 'This is what you get then you ask someone to make a bunch of fake data'),
+    ('The Title of Death', now() - '29 days'::INTERVAL, 'Death comes to all articles but once'),
+    ('The Life', now() - '28 days'::INTERVAL, 'Life comes to all life but once'),
+    ('Wise Sayings', now() - '20 days'::INTERVAL, '2 in a bush are worth 2 in a bush    Don''t eat yellow snow  if you want to experiance life, eat everything'),
+    ('Unwaise Sayings', now() - '18 days'::INTERVAL, 'Yellow snow is the best   Religion is a perfect topic for dinner parties  People who chew gum and walk at same time often chew and walk'),
+    ('Nonsense Sayings', now() - '16 days'::INTERVAL, 'Two babies are better than 3 babies at a yard sale   Yellow snow is blue Just don''t'),
+    ('Mom Sayings', now() - '12 days'::INTERVAL, 'Watch out, be careful, don''t eat yellow snow, slow down'),
+    ('Dad Sayings', now() - '11 days'::INTERVAL, 'Mhm, okay, sure, no'),
+    ('Daughter Sayings', now() - '9 days'::INTERVAL, 'no, NO, NOOOOO, mine, no mine, NO MINE!'),
+    ('Wife Sayings', now() - '8 days'::INTERVAL, 'Can you..., Where did you..., What did you..., Houw could you...'),
+    ('Baby Sayings', now() - '6 days'::INTERVAL, 'Babies can''t talk'),
+    ('Too Mnay Sayings', now() - '5 days'::INTERVAL, '2 in a bush are worth 2 in a bush    Don''t eat yellow snow  if you want to experiance life, eat everything Can you..., Where did you..., What did you..., Houw could you...no, NO, NOOOOO, mine, no mine, NO MINE!'),
+    ('Thank You to my Fans', now() - '2 days'::INTERVAL, 'Thank yo for all your support but without raising 1,000,000,000,000 I will be forced to stop contributing to this blog. Feel free to donate on my GoFund me.'),
+    ('Didn''t Make Our Goal', now(), 'We didn''t get to our goal of 1,000,000,000 dollars we only raised 1,000,000. I will be keeping this money.');
